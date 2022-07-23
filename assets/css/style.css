@@ -83,7 +83,8 @@ header p {
     border: none;
 }
 
-.active {
+/* Active si avvia solo se rispetta determinati requisiti */
+.inputs button.active {
     pointer-events: auto;
     opacity: 1;
 }
