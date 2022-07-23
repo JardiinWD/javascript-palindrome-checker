@@ -23,8 +23,6 @@ checkBtn.addEventListener("click", () => {
     }
 })
 
-
-
 /* Scateno un evento sull'input del mio utente, alla digitazione "keyup" ascolto cosa sta scrivendo */
 textInput.addEventListener("keyup", () => {
     /* toLowerCase() => necessario se l'utente scrivesse la prima o l'ultima parola in maiuscolo */
@@ -35,8 +33,7 @@ textInput.addEventListener("keyup", () => {
         /* console.log(`Sono la lunghezza dell'input ${filtro.length}`); */
         // Aggiungo la classe active solo se nel filtro è presente un carattere
         return checkBtn.classList.add("active")
-    }
-    else {
+    } else {
         /* Non mostro il mio infotext nel caso fosse vuoto l'input */
         infoText.style.display = "none"
         /* Altrimenti al bottone rimuovi la classe active */
