@@ -82,6 +82,14 @@ header p {
     cursor: pointer;
     border: none;
 }
+
+.active {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+
 /*endregion */
 
 /*region Info text */
